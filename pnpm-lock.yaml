@@ -511,8 +511,8 @@ importers:
         specifier: ^13.2.2
         version: 13.2.2
       pathe:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.1.1
+        version: 1.1.1
       postcss:
         specifier: ^8.4.27
         version: 8.4.27
@@ -694,8 +694,8 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       pathe:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.1.1
+        version: 1.1.1
       puppeteer:
         specifier: ^13.7.0
         version: 13.7.0
@@ -722,8 +722,8 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       pathe:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.1.1
+        version: 1.1.1
     devDependencies:
       '@types/node':
         specifier: ^17.0.45
@@ -756,8 +756,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       pathe:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.1.1
+        version: 1.1.1
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^1.4.0
@@ -808,8 +808,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       pathe:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.1.1
+        version: 1.1.1
     devDependencies:
       '@types/node':
         specifier: ^17.0.45
@@ -882,8 +882,8 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       pathe:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^1.1.1
+        version: 1.1.1
       picocolors:
         specifier: ^1.0.0
         version: 1.0.0
@@ -7242,6 +7242,7 @@ packages:
 
   /immutable@4.3.2:
     resolution: {integrity: sha512-oGXzbEDem9OOpDWZu88jGiYCvIsLHMvGw+8OXlpsvTFvIQplQbjg1B1cvKg8f7Hoch6+NGjpPsH1Fr+Mc2D1aA==}
+    dev: true
 
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -9305,9 +9306,6 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  /pathe@0.2.0:
-    resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
-
   /pathe@1.1.1:
     resolution: {integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==}
 
@@ -10307,6 +10305,7 @@ packages:
       chokidar: 3.5.3
       immutable: 4.3.2
       source-map-js: 1.0.2
+    dev: true
 
   /saxes@6.0.0:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
@@ -12067,7 +12066,6 @@ packages:
       rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.3
-    dev: true
 
   /vite@4.5.0(sass@1.65.1):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
@@ -12103,6 +12101,7 @@ packages:
       sass: 1.65.1
     optionalDependencies:
       fsevents: 2.3.3
+    dev: true
 
   /vitefu@0.2.4(vite@4.5.0):
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
